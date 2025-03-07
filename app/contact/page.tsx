@@ -11,7 +11,7 @@ export default function Contact() {
             Contact Me
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Let's Talk About Ideas
+            Let&apos;s Talk About Ideas
           </p>
         </div>
 

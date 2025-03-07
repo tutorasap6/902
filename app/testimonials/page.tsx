@@ -110,7 +110,7 @@ export default function Testimonials() {
     {
       name: "David Kim",
       position: "CTO",
-      text: "Gideon\u2019s expertise in API development and integration was crucial for our project. While there were some minor delays, the end result was solid.",
+      text: "Gideon's expertise in API development and integration was crucial for our project. While there were some minor delays, the end result was solid.",
       rating: 4,
       avatar: (
         <div className="w-16 h-16 rounded-full bg-[#13ADC7]/10 flex items-center justify-center text-[#13ADC7]">
@@ -162,11 +162,11 @@ export default function Testimonials() {
               </div>
               <StarRating rating={testimonial.rating} />
               <blockquote className="relative">
-                <span className="text-4xl text-[#13ADC7]/20 absolute -top-2 -left-2">"</span>
+                <span className="text-4xl text-[#13ADC7]/20 absolute -top-2 -left-2">&ldquo;</span>
                 <p className="text-[#8892b0] italic pl-4">
                   {testimonial.text}
                 </p>
-                <span className="text-4xl text-[#13ADC7]/20 absolute -bottom-4 -right-2">"</span>
+                <span className="text-4xl text-[#13ADC7]/20 absolute -bottom-4 -right-2">&rdquo;</span>
               </blockquote>
             </div>
           ))}
